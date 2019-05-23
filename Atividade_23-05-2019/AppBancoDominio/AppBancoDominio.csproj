@@ -44,11 +44,5 @@
     <Compile Include="Comandos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AppBancoDAO\AppBancoDAO.csproj">
-      <Project>{cfe40d0a-8164-4957-9e74-a6d93077f96a}</Project>
-      <Name>AppBancoDAO</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

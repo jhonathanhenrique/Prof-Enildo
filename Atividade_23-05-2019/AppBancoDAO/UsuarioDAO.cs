@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppBancoDAO
 {
+    private 
+        
     public class UsuarioDAO
     {
-        public int id = 
-        public string nome 
+      
         
     }
 }

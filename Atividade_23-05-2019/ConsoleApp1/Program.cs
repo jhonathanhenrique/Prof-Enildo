@@ -10,13 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            AppBancoDominio.Comandos comandos = new AppBancoDominio.Comandos();
-            AppBancoDAO.UsuarioDAO usuario = new AppBancoDAO.UsuarioDAO();
+
 
             recebeDADOS dados = new recebeDADOS();
         
-            int id, telefone, opcao, crq, qtd;
-            string cnpj, nome, endereco, bairro, email, med, continua;
+            int opcao;
+
 
             /*Inicio();
             Introducao();*/
@@ -30,11 +29,11 @@ namespace ConsoleApp1
                 Console.WriteLine("  |                                  |                                |");
                 Console.WriteLine("  |       CADASTRO                   |     CONSULTAS                  |");
                 Console.WriteLine("  |----------------------------------|--------------------------------|");
-                Console.WriteLine("  |  1 - CADASTRAR FARMÁCIA          |                                |");
-                Console.WriteLine("  |  2 - CADASTRAR CLIENTE           |                                |");
-                Console.WriteLine("  |                                  |                                |");
+                Console.WriteLine("  |  1 - CADASTRAR                   |                                |");
+                Console.WriteLine("  |  2 - ALTERAR                     |                                |");
+                Console.WriteLine("  |  3 - EXCLUIR                     |                                |");
                 Console.WriteLine("  |  4 - LISTAR REGISTROS            |                                |");
-                Console.WriteLine("  |                                  |                                |");
+                Console.WriteLine("  |  5 - SAIR                        |                                |");
                 Console.WriteLine("  |                                  |                                |");
                 Console.WriteLine("  |__________________________________|________________________________|");
                 Console.Write("\n  Digite a opção desejada:");
@@ -54,23 +53,22 @@ namespace ConsoleApp1
                         dados.AlteraCadastro();
                         break;
                     case 3:
-                        dados.Listar();
+                        dados.deletarusu();
                         break;
                     case 4:
-                        //comandos.mostrarReg(usuario);
+                        dados.Listar();
                         break;
-
+                    case 5:
+                        Console.Clear();
+                        Console.WriteLine("Programa finalizado, pode fechar.");
+                        break;
 
                     default:
                         Console.WriteLine("\t\t\t\t Opção numérica inexistente.");
                         break;
                 }
-                if (opcao != 0)
-                {
-                    Console.Write("\n Aperte qualquer tecla para voltar ao menu....");
-                    Console.ReadKey();
-                    Console.Clear();
-                }
+                
+               
             } while (opcao != 0);
 
             
