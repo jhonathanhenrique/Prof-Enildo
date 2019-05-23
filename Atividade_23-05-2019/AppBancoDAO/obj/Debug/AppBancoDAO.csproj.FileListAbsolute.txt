@@ -1,0 +1,6 @@
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\AppBancoDAO\bin\Debug\AppBancoDAO.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\AppBancoDAO\bin\Debug\AppBancoDAO.pdb
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\AppBancoDAO\obj\Debug\AppBancoDAO.csprojAssemblyReference.cache
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\AppBancoDAO\obj\Debug\AppBancoDAO.csproj.CoreCompileInputs.cache
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\AppBancoDAO\obj\Debug\AppBancoDAO.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\AppBancoDAO\obj\Debug\AppBancoDAO.pdb
