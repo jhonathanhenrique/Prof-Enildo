@@ -51,7 +51,9 @@ namespace ConsoleApp1
                 "cargo = " + usuario.cargo + 
                 "data = " + usuario.data + 
                 "where IdUsu = " + usuario.id;
-            
+
+            banco.executaComando(strselecionausu);
+
         }
         public void Listar()
         {
@@ -72,7 +74,8 @@ namespace ConsoleApp1
             Console.Write("Digite o id que deseja deletar ");
             usuario.id = int.Parse(Console.ReadLine());            
             string strselecionausu = " delete from tbUsuario where IdUsu = " + usuario.id;
-            
+            banco.executaComando(strselecionausu);
+
 
         }
 

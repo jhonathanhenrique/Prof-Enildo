@@ -25,17 +25,17 @@ namespace ConsoleApp1
             {
                 Console.Clear();
                 Console.WriteLine("        *************FARMÁCIA DE MANIPULAÇÃO MISTURA CERTA*************");
-                Console.WriteLine("  _____________________________________________________________________");
-                Console.WriteLine("  |                                  |                                |");
-                Console.WriteLine("  |       CADASTRO                   |     CONSULTAS                  |");
-                Console.WriteLine("  |----------------------------------|--------------------------------|");
-                Console.WriteLine("  |  1 - CADASTRAR                   |                                |");
-                Console.WriteLine("  |  2 - ALTERAR                     |                                |");
-                Console.WriteLine("  |  3 - EXCLUIR                     |                                |");
-                Console.WriteLine("  |  4 - LISTAR REGISTROS            |                                |");
-                Console.WriteLine("  |  5 - SAIR                        |                                |");
-                Console.WriteLine("  |                                  |                                |");
-                Console.WriteLine("  |__________________________________|________________________________|");
+                Console.WriteLine("  ___________________________________");
+                Console.WriteLine("  |                                  |");
+                Console.WriteLine("  |       CADASTRO                   |");
+                Console.WriteLine("  |----------------------------------|");
+                Console.WriteLine("  |  1 - CADASTRAR                   |");
+                Console.WriteLine("  |  2 - ALTERAR                     |");
+                Console.WriteLine("  |  3 - EXCLUIR                     |");
+                Console.WriteLine("  |  4 - LISTAR REGISTROS            |");
+                Console.WriteLine("  |  5 - SAIR                        |");
+                Console.WriteLine("  |                                  |");
+                Console.WriteLine("  |__________________________________|");
                 Console.Write("\n  Digite a opção desejada:");
 
 

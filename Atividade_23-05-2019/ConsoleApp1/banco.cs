@@ -13,7 +13,7 @@ namespace ConsoleApp1
 
         public Banco()
         {
-            conexao = new SqlConnection(@"Data Source =JHONATHAN-PC\SQLEXPRESS; Initial Catalog = db_registro; Integrated Security = True");
+            conexao = new SqlConnection(@"Data Source =DESKTOP-F6BBN38; Initial Catalog = dbExemplo; User ID = sa; password = 1234567");
             conexao.Open();
 
         }
