@@ -12,6 +12,8 @@ namespace ConsoleApp1
         {
             AppBancoDominio.Comandos comandos = new AppBancoDominio.Comandos();
             AppBancoDAO.UsuarioDAO usuario = new AppBancoDAO.UsuarioDAO();
+
+            recebeDADOS dados = new recebeDADOS();
         
             int id, telefone, opcao, crq, qtd;
             string cnpj, nome, endereco, bairro, email, med, continua;
@@ -46,20 +48,18 @@ namespace ConsoleApp1
                 switch (opcao)
                 {
                     case 1:
-                       // cadastrarFarmacia();
+                        dados.cadastro();
                         break;
                     case 2:
-                        //cadastrarCliente();
+                        dados.AlteraCadastro();
                         break;
                     case 3:
-                        //cadastrarFuncionario();
+                        dados.Listar();
                         break;
                     case 4:
-                        comandos.mostrarReg(usuario);
+                        //comandos.mostrarReg(usuario);
                         break;
-                    case 5:
-                        //cadastrarEstoque();
-                        break;
+
 
                     default:
                         Console.WriteLine("\t\t\t\t Opção numérica inexistente.");
