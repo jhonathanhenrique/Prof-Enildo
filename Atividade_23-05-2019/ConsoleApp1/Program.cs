@@ -24,7 +24,7 @@ namespace ConsoleApp1
             do
             {
                 Console.Clear();
-                Console.WriteLine("        *************FARMÁCIA DE MANIPULAÇÃO MISTURA CERTA*************");
+                Console.WriteLine("        *************OPÇÕES*************");
                 Console.WriteLine("  ___________________________________");
                 Console.WriteLine("  |                                  |");
                 Console.WriteLine("  |       CADASTRO                   |");

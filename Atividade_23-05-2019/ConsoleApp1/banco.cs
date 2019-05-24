@@ -9,11 +9,13 @@ namespace ConsoleApp1
 {
     class Banco : IDisposable
     {
+        
+
         private readonly SqlConnection conexao;
 
         public Banco()
         {
-            conexao = new SqlConnection(@"Data Source =DESKTOP-F6BBN38; Initial Catalog = dbExemplo; User ID = sa; password = 1234567");
+            conexao = new SqlConnection(@"Data Source =DESKTOP-08ODHP9; Initial Catalog = dbExemplo; User ID = sa; password = 1234567");
             conexao.Open();
 
         }

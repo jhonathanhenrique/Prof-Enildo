@@ -8,10 +8,10 @@ namespace ConsoleApp1
 {
     class Usuario
     {
-        public int id;
-        public string nome;
-        public string cargo;
-        public DateTime data;
+        public int id { get; set; }
+        public string nome { get; set; }
+        public string cargo { get; set; }
+        public DateTime data { get; set; }
 
     }
 }
