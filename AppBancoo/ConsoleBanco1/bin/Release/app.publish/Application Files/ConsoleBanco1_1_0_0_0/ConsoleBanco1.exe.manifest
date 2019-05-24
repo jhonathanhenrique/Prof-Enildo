@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConsoleBanco1.exe" version="1.0.0.0" publicKeyToken="8065684c203b8053" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="yellow.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConsoleBanco1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConsoleBanco1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleBanco1.exe" size="7616">
+      <assemblyIdentity name="ConsoleBanco1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SYs/9ks/4LZI/tXVCuoiL3q62HzYqxbZfb21XATW2Yk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConsoleBanco1.exe.config" size="530">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jsVItZw4Zl5u7T3pUNOsF5RhTI4t8lmWBROWKkq+fNc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon1.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AAfIo/AzxT7+pp2As037BpPEEpg0UJLM3a7ZcroTM1A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="xampp-icon.ico" size="30894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HXyVxe6gCoCDqVgQ+QJoL54m5/u3h2sCKkA2Qtd20Mk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="yellow.ico" size="766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XLn3hkF/GPQ8MPx7Mjdlovjcd+N6dJNYj1zXKN4Gfbo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BASILIDES\2binfo" issuerKeyHash="e3e823c30a6e021ebb6be74ac57b258a79ddd8a1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7Y/m40Jfa4UqSraVwA/skQqp+xE4/ZDfMRmtTb8J/4k=</DigestValue></Reference></SignedInfo><SignatureValue>Bzn3ejKMN/dBiuoyK5IjEuyCZLdfZCrveCEYFgDe2FHxOtlBRXNWdTN4N75jq4V0g7fTPU5jgV+8hI61LVnLvUPnoVXNLrJiQqplD4oxD6ngjjOR7Ug2yUYmsEnjaRV3VwXYFE9xvcMJQvuVIKj+6+LLP/JYCVvfWuDDRr5K3w0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3QzzJqdqy0PcLjRwFHgGRvMC7Q3pXQlQJHjrY/rd/futjRZ3O8okhqLAgeb3Gzai/OYCLwVASc0PDkyTN7H9wjfaudld8BQ3t0Wdk282FPGxuOIJ+uAkh/wvWZvYqyZEGyaKDBfKeRx8Ke3q6m9uC58P1x4STtv+9ZeS78lNQyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="89ff09bf4dad1931df90fd3811fba90a91ec0fc095b64a2a856b5f42e3e68fed" Description="" Url=""><as:assemblyIdentity name="ConsoleBanco1.exe" version="1.0.0.0" publicKeyToken="8065684c203b8053" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BASILIDES\2binfo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vo1QoNwi1ICVPE5TOQhVXk8z3IpsIfDwzfHTyLEo4Qc=</DigestValue></Reference></SignedInfo><SignatureValue>xitRhBj1SlprQupLUG1ztguvOW0qAITUX84yMFKN+IqZid0fVck70xA6jenT37IPEAtUETzi76cKpxRJsy3UYaEpHKOaOGpe1bk1x7T+NFiUPA8zJORub73CJkWJrXrAcmHpMQZwjJLdLUDf5+UUAmlQajY000hGLZentxcx+3s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3QzzJqdqy0PcLjRwFHgGRvMC7Q3pXQlQJHjrY/rd/futjRZ3O8okhqLAgeb3Gzai/OYCLwVASc0PDkyTN7H9wjfaudld8BQ3t0Wdk282FPGxuOIJ+uAkh/wvWZvYqyZEGyaKDBfKeRx8Ke3q6m9uC58P1x4STtv+9ZeS78lNQyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQa0v07NTq3KFCz9JWchSfQTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQgBBAFMASQBMAEkARABFAFMAXAAyAGIAaQBuAGYAbzAeFw0xOTA0MjYwMTEwMjRaFw0yMDA0MjUwNzEwMjRaMCsxKTAnBgNVBAMeIABCAEEAUwBJAEwASQBEAEUAUwBcADIAYgBpAG4AZgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdDPMmp2rLQ9wuNHAUeAZG8wLtDeldCVAkeOtj+t39+62NFnc7yiSGosCB5vcbNqL85gIvBUBJzQ8OTJM3sf3CN9q52V3wFDe3RZ2TbzYU8bG44gn64CSH/C9Zm9irJkQbJooMF8p5HHwp7erqb24Lnw/XHhJO2/71l5LvyU1DIQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAA720jVykQ5FAAs6OAJhKiiUWlEpW+mh5CUj1il2k3v4sTfFZ3QnVOU8Nki+4OYVMfRIaJx+BzSfk3SP3G63/c/+EGLXk+xCD6v6uZ2ZDK+EFsaMtsTI8cWtH3FV2C/8n4ORc+DevdvE3g14poZEvAchavGH0SXDMTTOjDxsBe3t</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

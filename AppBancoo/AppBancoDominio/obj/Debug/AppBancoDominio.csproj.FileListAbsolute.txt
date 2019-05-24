@@ -1,0 +1,9 @@
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\bin\Debug\AppBancoDominio.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\bin\Debug\AppBancoDominio.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\bin\Debug\AppBancoADO.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\bin\Debug\AppBancoADO.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\obj\Debug\AppBancoDominio.csprojAssemblyReference.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\obj\Debug\AppBancoDominio.csproj.CoreCompileInputs.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\obj\Debug\AppBancoDominio.csproj.CopyComplete
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\obj\Debug\AppBancoDominio.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoDominio\obj\Debug\AppBancoDominio.pdb

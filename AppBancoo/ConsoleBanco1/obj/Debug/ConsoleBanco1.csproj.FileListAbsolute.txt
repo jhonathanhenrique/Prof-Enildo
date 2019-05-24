@@ -1,0 +1,58 @@
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Diogo\Ds\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.config
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Diogo\Ds\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Diogo\Ds\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Diogo\Ds\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csprojAssemblyReference.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Diogo\Ds\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csproj.CoreCompileInputs.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Diogo\Ds\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Diogo\Ds\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.pdb
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.config
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.manifest
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.application
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.pdb
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csprojAssemblyReference.cache
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csproj.CoreCompileInputs.cache
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe.manifest
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.application
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe
+C:\Users\2binfo\Desktop\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.pdb
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.config
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.manifest
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.application
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.pdb
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csprojAssemblyReference.cache
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csproj.CoreCompileInputs.cache
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe.manifest
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.application
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe
+C:\Users\2binfo\Desktop\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.config
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.manifest
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.application
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\bin\Debug\ConsoleBanco1.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csprojAssemblyReference.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.csproj.CoreCompileInputs.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe.manifest
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.application
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\DOUGLAS_H\Banco\DOUGLAS_H\AppBanco\ConsoleBanco1\obj\Debug\ConsoleBanco1.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.config
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe.manifest
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\ConsoleBanco1.application
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\ConsoleBanco1.exe
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\ConsoleBanco1.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\obj\Debug\ConsoleBanco1.csprojAssemblyReference.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\obj\Debug\ConsoleBanco1.csproj.CoreCompileInputs.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe.manifest
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\obj\Debug\ConsoleBanco1.application
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\obj\Debug\ConsoleBanco1.exe
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\obj\Debug\ConsoleBanco1.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\AppBancoADO.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\AppBancoDLL.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\AppBancoDominio.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\AppBancoADO.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\AppBancoDLL.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\bin\Debug\AppBancoDominio.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\ConsoleBanco1\obj\Debug\ConsoleBanco1.csproj.CopyComplete

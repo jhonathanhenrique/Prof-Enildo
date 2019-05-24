@@ -1,0 +1,6 @@
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoADO\bin\Debug\AppBancoADO.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoADO\bin\Debug\AppBancoADO.pdb
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoADO\obj\Debug\AppBancoADO.csprojAssemblyReference.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoADO\obj\Debug\AppBancoADO.csproj.CoreCompileInputs.cache
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoADO\obj\Debug\AppBancoADO.dll
+T:\Usuarios\INFORMATICA\2B MODULAR NOITE\Jhonathan\AppBancoo\AppBancoADO\obj\Debug\AppBancoADO.pdb
