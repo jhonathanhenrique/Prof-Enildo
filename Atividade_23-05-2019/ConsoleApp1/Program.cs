@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,21 +9,25 @@ namespace ConsoleApp1
 {
     class Program
     {
+       
+
         static void Main(string[] args)
         {
 
-
+            
             recebeDADOS dados = new recebeDADOS();
         
             int opcao;
 
-
+            
             /*Inicio();
             Introducao();*/
             Console.Clear();
 
             do
             {
+                
+
                 Console.Clear();
                 Console.WriteLine("        *************OPÇÕES*************");
                 Console.WriteLine("  ___________________________________");
@@ -42,7 +47,7 @@ namespace ConsoleApp1
 
                 while (!(int.TryParse(Console.ReadLine(), out opcao)))
                 {
-                    Console.Write("\t\t\t\t    Opção não númérica. Escolha uma opção de 0 a 12:");
+                    Console.Write("Opção não númérica. Escolha uma opção de 0 a 12:");
                 }
                 switch (opcao)
                 {
@@ -58,18 +63,15 @@ namespace ConsoleApp1
                     case 4:
                         dados.Listar();
                         break;
-                    case 5:
-                        Console.Clear();
-                        Console.WriteLine("Programa finalizado, pode fechar.");
-                        break;
+                
 
                     default:
-                        Console.WriteLine("\t\t\t\t Opção numérica inexistente.");
+                        Console.WriteLine("Opção inválida, digite um número de 1 a 5");
                         break;
                 }
                 
                
-            } while (opcao != 0);
+            } while (opcao != 5);
 
             
 

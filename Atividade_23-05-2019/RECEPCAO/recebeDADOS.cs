@@ -9,7 +9,7 @@ namespace ConsoleApp1
 {
     
 
-    class recebeDADOS
+    public class recebeDADOS
     {
         Banco banco = new Banco();
         Usuario usuario = new Usuario();
@@ -17,8 +17,9 @@ namespace ConsoleApp1
 
         public void cadastro()
         {
-            
-            
+            Console.Clear();
+           banco.Abre();
+
             Console.Write("Digite o nome: ");
             usuario.nome = Console.ReadLine();
 
@@ -27,15 +28,26 @@ namespace ConsoleApp1
 
             Console.Write("Digite data de nascimento: ");
             usuario.data = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
 
-            string insereusu = string.Format("insert into tbtUsuario(NomeUsu, Cargo, Data) values ('{0}', '{1}',CONVERT (DATETIME,'{2}',103));", usuario.nome, usuario.cargo, usuario.data);
+            string insereusu = string.Format("insert into tbUsuario(NomeUsu, Cargo, Data) values ('{0}', '{1}',CONVERT (DATETIME,'{2}',103));", usuario.nome, usuario.cargo, usuario.data);
             banco.executaComando(insereusu);
+
+            banco.mostra();
+
+            banco.Dispose();
+            Console.Write("\n\n\n\n\n\n Tecle qualquer tecla para voltar ao menu...\n\n\n");
+            Console.ReadKey();
             
         }
        
 
         public void AlteraCadastro()
         {
+            Console.Clear();
+            banco.Abre();
 
             Console.Write("Digite o id que deseja alterar: ");
             usuario.id = int.Parse(Console.ReadLine());
@@ -46,28 +58,34 @@ namespace ConsoleApp1
             Console.Write("Digite o cargo...: ");
             usuario.cargo = Console.ReadLine();
 
-            Console.Write("Agora a data...: ");
+            Console.Write("Agora a data...: \n\n\n\n");
             usuario.data = DateTime.Parse(Console.ReadLine());
 
 
 
             var strQuery = "";
-            strQuery += "UPDATE tbtUsuario SET ";
+            strQuery += "UPDATE tbUsuario SET ";
             strQuery += string.Format(" NomeUsu = '{0}', ", usuario.nome );
             strQuery += string.Format(" Cargo = '{0}', ", usuario.cargo);
             strQuery += string.Format(" Data = CONVERT(DATETIME, '{0}',103)", usuario.data);
             strQuery += string.Format(" WHERE IdUsu = {0} ", usuario.id);
 
             string strselecionausu = strQuery;
+            banco.executaComando(strselecionausu);
 
-
-           banco.executaComando(strselecionausu);
+            banco.mostra();
+            Console.Write("\n\n\n\n\n\n Tecle qualquer tecla para voltar ao menu...\n\n\n");
+            Console.ReadKey();
+            // Listar();
+            banco.Dispose();
 
         }
         public void Listar()
         {
-            
-            string strselecionausu = "select * from tbtUsuario";
+            Console.Clear();
+            banco.Abre();
+
+            string strselecionausu = "select * from tbUsuario";
             SqlDataReader leitor = banco.RetornaComando(strselecionausu);
 
             while(leitor.Read())
@@ -75,6 +93,14 @@ namespace ConsoleApp1
                 Console.WriteLine("Id: {0}, Nome: {1}, Cargo {2}, Data {3}", leitor["IdUsu"], leitor["NomeUsu"], leitor["Cargo"], leitor["Data"]);
                 
             }
+
+            banco.mostra();
+
+
+            Console.Write("\n\n\n\n\n\n Tecle qualquer tecla para voltar ao menu...\n\n\n");
+            //Listar();
+
+            banco.Dispose();
             Console.ReadKey();
             
             
@@ -82,12 +108,26 @@ namespace ConsoleApp1
 
         public void deletarusu()
         {
+            banco.Abre();
+
+            Console.Clear();
+            banco.Abre();
             Console.Write("Digite o id que deseja deletar ");
-            usuario.id = int.Parse(Console.ReadLine());            
-            string strselecionausu = " delete from tbtUsuario where IdUsu = " + usuario.id;
+            usuario.id = int.Parse(Console.ReadLine());
+
+        
+          
+            string strselecionausu = " delete from tbUsuario where IdUsu = " + usuario.id;
             banco.executaComando(strselecionausu);
 
+                Console.Write("\n\n\n\Usuário deletado com sucesso!!!\n\n\n");
 
+            //Listar();
+            banco.mostra();
+
+            Console.Write("\n\n\n\n\n\n Tecle qualquer tecla para voltar ao menu...");
+            Console.ReadKey();
+            banco.Dispose();
         }
 
     }

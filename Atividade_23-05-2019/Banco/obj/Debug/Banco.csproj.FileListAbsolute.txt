@@ -1,0 +1,5 @@
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\bin\Debug\Banco.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\bin\Debug\Banco.pdb
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.pdb

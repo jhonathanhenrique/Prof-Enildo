@@ -1,0 +1,11 @@
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\obj\Debug\RECEPCAO.csprojAssemblyReference.cache
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\obj\Debug\RECEPCAO.csproj.CoreCompileInputs.cache
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\bin\Debug\RECEPCAO.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\bin\Debug\RECEPCAO.pdb
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\bin\Debug\Banco.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\bin\Debug\Usuario.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\bin\Debug\Banco.pdb
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\bin\Debug\Usuario.pdb
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\obj\Debug\RECEPCAO.csproj.CopyComplete
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\obj\Debug\RECEPCAO.dll
+C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\RECEPCAO\obj\Debug\RECEPCAO.pdb
