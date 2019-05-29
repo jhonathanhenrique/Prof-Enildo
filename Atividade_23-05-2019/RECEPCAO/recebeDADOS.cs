@@ -120,7 +120,7 @@ namespace ConsoleApp1
             string strselecionausu = " delete from tbUsuario where IdUsu = " + usuario.id;
             banco.executaComando(strselecionausu);
 
-                Console.Write("\n\n\n\Usuário deletado com sucesso!!!\n\n\n");
+                Console.Write("Usuário deletado com sucesso!!!\n\n\n");
 
             //Listar();
             banco.mostra();

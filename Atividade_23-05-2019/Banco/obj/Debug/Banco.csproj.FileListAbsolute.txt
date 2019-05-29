@@ -3,3 +3,9 @@ C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\bin\Debug\Ba
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\bin\Debug\Banco.pdb
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.dll
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.pdb
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\bin\Debug\Banco.dll
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\bin\Debug\Banco.pdb
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.csprojAssemblyReference.cache
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.dll
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Banco\obj\Debug\Banco.pdb

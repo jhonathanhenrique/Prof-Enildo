@@ -19,3 +19,10 @@ C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\De
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\Banco.pdb
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\Usuario.pdb
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\RECEPCAO.dll
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\Banco.dll
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\Usuario.dll
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\RECEPCAO.pdb
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\Banco.pdb
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\bin\Debug\Usuario.pdb
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete

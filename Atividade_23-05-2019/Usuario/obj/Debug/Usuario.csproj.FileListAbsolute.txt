@@ -4,3 +4,9 @@ C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\Usuario.csproj.CoreCompileInputs.cache
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\Usuario.dll
 C:\Users\Jhonathan\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\Usuario.pdb
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\bin\Debug\Usuario.dll
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\bin\Debug\Usuario.pdb
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\Usuario.csprojAssemblyReference.cache
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\Usuario.csproj.CoreCompileInputs.cache
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\Usuario.dll
+C:\Users\2binfo\Documents\Prof-Enildo\Atividade_23-05-2019\Usuario\obj\Debug\Usuario.pdb
