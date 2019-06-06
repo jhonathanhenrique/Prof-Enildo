@@ -12,6 +12,8 @@ namespace WebApplication1.Controllers
     {
 
         Banco b = new Banco();
+
+
          
         public ActionResult Index()
         {
@@ -22,7 +24,7 @@ namespace WebApplication1.Controllers
 
         }
 
-
+        
         public ActionResult Alterar()
         {
             
@@ -30,17 +32,17 @@ namespace WebApplication1.Controllers
         }
 
 
-        [HttpPost]
+        [HttpGet]
         public ActionResult Alterar(Passageiro p)
         {
-            AcoesGerente g = new AcoesGerente();
+            var g = new AcoesGerente();
 
            
             g.Atualizar(p);
 
            
 
-            return View(p);
+            return RedirectToAction("Index");
         }
         
 
@@ -67,22 +69,27 @@ namespace WebApplication1.Controllers
 
         }
 
-        public ActionResult Deletar()
-        {
-     
-
-            return View();
-        }
-
-
-        [HttpPost]
+        
         public ActionResult Deletar(Passageiro p)
         {
+
+                                 
+            return View(p);
+
+       }
+
+
+        //[HttpPost]
+        public ActionResult FimDeletar(Passageiro p)
+        {
+
             var g = new AcoesGerente();
 
             g.Excluir(p);
 
-            return View();
+
+
+            return RedirectToAction("Index");
         }
     }
 }

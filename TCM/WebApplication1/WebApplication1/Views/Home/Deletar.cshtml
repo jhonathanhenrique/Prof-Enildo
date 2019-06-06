@@ -34,40 +34,42 @@
 
         <dd>
             @Html.DisplayFor(model => model.endereco)
+            
         </dd>
-
+        
         <dt>
-            @Html.DisplayNameFor(model => Model.email)
+            @Html.DisplayNameFor(model => model.email)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => Model.email)
+            @Html.DisplayFor(model => model.email)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => Model.telefone)
+            @Html.DisplayNameFor(model => model.telefone)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => Model.telefone)
+            @Html.DisplayFor(model => model.telefone)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => Model.senha)
+            @Html.DisplayNameFor(model => model.senha)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => Model.senha)
+            @Html.DisplayFor(model => model.senha)
         </dd>
 
     </dl>
 
-    @using (Html.BeginForm()) {
+    @*@using (Html.BeginForm("FimDeletar", "Home")) {*@
         @Html.AntiForgeryToken()
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
-        </div>
-    }
-</div>
+    @*<div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-default" />*@
+        @Html.ActionLink("Confirmar", "FimDeletar",  new { Model.id, Model.nome, Model.telefone, Model.endereco, Model.email })|
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+  
+

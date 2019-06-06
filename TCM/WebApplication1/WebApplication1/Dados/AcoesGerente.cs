@@ -21,6 +21,15 @@ namespace WebApplication1.Dados
             }
         }
 
+        public void ListarCertoPas(int id )
+        {
+            var strQuery = string.Format(" SELECT FROM PASSAGEIRO WHERE ID_COD_PAS = {0}", id);
+            db.RetornaComando(strQuery);
+        }
+
+
+
+
         public void Insert(Passageiro passageiro)
         {
 
