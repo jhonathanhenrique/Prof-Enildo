@@ -1,0 +1,42 @@
+﻿@model HeyBus.Models.Passagem
+@{
+    ViewBag.Title = "Comprar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    <h2>Comprar</h2>
+    <div>
+        @Html.HiddenFor(model => model.viag.id_Viagem)
+        @Html.HiddenFor(model => model.cli.id_Cliente)
+        <br />
+        <br />
+        <dl>
+           <dt>
+               @Html.DropDownList("bancos", "Selecione o banco desejado")
+           </dt>
+            <dt>
+                @Html.LabelFor(model => model.cpf_Cliente)
+                @Html.EditorFor(model => model.cpf_Cliente)
+            </dt>
+            <dt>
+                @Html.DisplayFor(model => model.oni.viacao_Onibus)
+            </dt>
+            <dt>
+                @Html.DisplayFor(model => model.oni.categoria_Onibus)
+            </dt>
+            <dt>
+                @Html.DisplayFor(model => model.rot.destino_Rota)
+            </dt>
+            <dt>
+                @Html.DisplayFor(model => model.rot.origem_Rota)
+            </dt>
+            <dt>
+                @Html.DisplayFor(model => model.viag.valor_Viagem)
+            </dt>
+        </dl>
+    </div>
+
+    <input type="submit" value="Comprar" class="btn-buscar-viagem-home" />
+}

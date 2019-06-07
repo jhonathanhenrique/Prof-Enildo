@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
 
-        Banco b = new Banco();
+        
 
 
          
@@ -25,15 +25,15 @@ namespace WebApplication1.Controllers
         }
 
         
-        public ActionResult Alterar()
+        public ActionResult Alterar(Passageiro passageiro)
         {
             
-            return View();
+            return View(passageiro);
         }
 
 
-        [HttpGet]
-        public ActionResult Alterar(Passageiro p)
+        [HttpPost]
+        public ActionResult Altera(Passageiro p)
         {
             var g = new AcoesGerente();
 
@@ -79,7 +79,7 @@ namespace WebApplication1.Controllers
        }
 
 
-        //[HttpPost]
+        
         public ActionResult FimDeletar(Passageiro p)
         {
 
@@ -90,6 +90,15 @@ namespace WebApplication1.Controllers
 
 
             return RedirectToAction("Index");
+        }
+
+
+        public ActionResult Detalhes(Passageiro p)
+        {
+
+
+            return View(p);
+
         }
     }
 }

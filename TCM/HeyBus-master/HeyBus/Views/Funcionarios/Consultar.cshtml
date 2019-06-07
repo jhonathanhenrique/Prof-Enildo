@@ -1,0 +1,105 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutFuncionario .cshtml";
+}
+@model IEnumerable<HeyBus.Models.Funcionario>
+
+<header class="cabecalho d-flex justify-content-between align-items-baseline">
+    <h1><span>Funcionário |</span> Consulta</h1>
+    <img src="~/images/logoheybus-branco.png" />
+</header>
+<div class="filtro-consulta">
+    <div class="d-flex mb-2">
+        <h2>Procurar por: </h2>
+        <select id="Filtros" class="form-control form-control-sm col-md-1 col-4 ml-3">
+            <option value="ID">ID</option>
+            <option value="Nome">Nome</option>
+            <option value="CPF">CPF</option>
+        </select>
+    </div>
+    <input id="Filtrar" name="Filtrar" type="text" class="form-control col-8 col-sm-6 col-md-3" placeholder="Digite o filtro aqui.">
+    <input type="submit" id="BtnFiltrar" value="Filtrar" class="btn-laranja mt-2"/>
+</div>
+<div class="box-consulta">
+    <table class="table table-bordered tbResizable">
+        <thead>
+            <tr>
+                <th style="min-width:10px;max-width:150px; font-weight:400" class="p-2">
+                    @Html.DisplayNameFor(model => model.id_Funcionario)
+                </th>
+                <th style="min-width:10px;max-width:170px;font-weight:400" class="p-2">
+                    @Html.DisplayNameFor(model => model.cpf_Funcionario)
+                </th>
+                <th style="min-width:10px;max-width:400px;font-weight:400" class="p-2">
+                    @Html.DisplayNameFor(model => model.nome_Funcionario)
+                </th>
+                <th style="min-width:10px;max-width:320px;font-weight:400"class="p-2">
+                    @Html.DisplayNameFor(model => model.email_Funcionario)
+                </th>
+                <th style="min-width:10px;max-width:340px;font-weight:400" class="p-2">
+                    @Html.DisplayNameFor(model => model.endereco_Funcionario)
+                </th>
+                <th style="min-width:10px;max-width:170px;font-weight:400" class="p-2">
+                    @Html.DisplayNameFor(model => model.login_Acesso)
+                </th>
+            </tr>
+        </thead>
+        <tbody id="ProcurarDados">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="font-weight:300" class="p-2">
+                        @Html.DisplayFor(modelItem => item.id_Funcionario)
+                    </td>
+                    <td style="font-weight:300" class="p-2">
+                        @Html.DisplayFor(modelItem => item.cpf_Funcionario)
+                    </td>
+                    <td style="font-weight:300" class="p-2">
+                        @Html.DisplayFor(modelItem => item.nome_Funcionario)
+                    </td>
+                    <td style="font-weight:300" class="p-2">
+                        @Html.DisplayFor(modelItem => item.email_Funcionario)
+                    </td>
+                    <td style="font-weight:300" class="p-2">
+                        @Html.DisplayFor(modelItem => item.endereco_Funcionario)
+                    </td>
+                    <td style="font-weight:300" class="p-2">
+                        @Html.DisplayFor(modelItem => item.login_Funcionario)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(document).ready(function (){
+        $("#BtnFiltrar").click(function () {
+            var Filtros = $("#Filtros").val();
+            var Filtrar = $("#Filtrar").val();
+            var RecebeData = $("#ProcurarDados");
+            RecebeData.html("");
+            $.ajax({
+                type: "post",
+                url: "/Funcionarios/GetFiltrarDados?Filtros=" + Filtros + "&ValorFiltro=" + Filtrar,
+                contentType: "html",
+                success: function (resultado) {
+                    if (resultado.length == 0) {
+                        RecebeData.append('<tr style="color: red"><td colspan="3">Nenhum dado encontrado</td></tr>')
+                    }
+                    else {
+                        $.each(resultado, function (index, value) {
+                            var Dados = "<tr>" +
+                                "<td>" + value.id_Funcionario + "</td>" +
+                                "<td>" + value.cpf_Funcionario + "</td>" +
+                                "<td>" + value.nome_Funcionario + "</td>" +
+                                "<td>" + value.email_Funcionario + "</td>" +
+                                "<td>" + value.endereco_Funcionario + "</td>" +
+                                "</tr>";
+                            RecebeData.append(Dados);
+                        });
+                    }
+                }
+            });
+        });
+    });
+</script>

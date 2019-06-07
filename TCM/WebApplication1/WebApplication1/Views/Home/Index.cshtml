@@ -33,35 +33,34 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.id)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.nome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.cpf)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.endereco)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.telefone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.senha)
-        </td>
-        <td>
-            @Html.ActionLink("Alterar", "Alterar", new {id = item.id }) |
-            @Html.ActionLink("Details", "Details", new { id = item.id}) |
-            @Html.ActionLink("Delete", "Deletar", new { item.id, item.nome, item.telefone, item.endereco, item.email })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.senha)
+            </td>
+
+            <td>
+                @Html.ActionLink("Alterar", "Alterar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
+                @Html.ActionLink("Detalhes", "Detalhes", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
+                @Html.ActionLink("Deletar", "Deletar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha })
+            </td>
+        </tr>
+    }
 
 </table>

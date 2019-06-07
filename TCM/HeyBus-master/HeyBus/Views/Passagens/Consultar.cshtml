@@ -1,0 +1,88 @@
+﻿@model IEnumerable<HeyBus.Models.Passagem>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_Passagem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cli.nome_Cliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rot.origem_Rota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bus.viacao_Onibus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rot.destino_Rota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.viag.data_Ida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.forma_Pagamaneto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cpf_Cliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desconto_Passagem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.valor_Passagem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.data_Compra)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_Passagem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cli.nome_Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rot.origem_Rota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bus.viacao_Onibus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rot.destino_Rota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.viag.data_Ida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.forma_Pagamaneto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cpf_Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.desconto_Passagem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.valor_Passagem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data_Compra)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_Passagem }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id_Passagem }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_Passagem })
+            </td>
+        </tr>
+    }
+
+</table>
