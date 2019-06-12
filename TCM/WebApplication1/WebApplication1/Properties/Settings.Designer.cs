@@ -43,5 +43,16 @@ namespace WebApplication1.Properties {
                 return ((string)(this["conexaoo"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-B97K7OC;Initial Catalog=DB_TRANSPORTADORA;User ID=sa;Password" +
+            "=1234567")]
+        public string conexaooo {
+            get {
+                return ((string)(this["conexaooo"]));
+            }
+        }
     }
 }

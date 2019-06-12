@@ -21,12 +21,17 @@ namespace WebApplication1.Dados
             }
         }
 
-        public void ListarCertoPas(int id )
-        {
-            var strQuery = string.Format(" SELECT FROM PASSAGEIRO WHERE ID_COD_PAS = {0}", id);
-            db.RetornaComando(strQuery);
-        }
 
+        //public SqlDataReader ListarUni(int p)
+        //{
+        //    using (db = new Banco())
+        //    {
+        //        var strQuery = "Select * from PASSAGEIRO where id_cod_pas = " + p;
+        //        var retorno = db.RetornaComando(strQuery);
+        //        return (retorno);
+        //    }
+
+        //}
 
 
 

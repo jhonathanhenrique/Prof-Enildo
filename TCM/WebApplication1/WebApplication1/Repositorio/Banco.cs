@@ -17,7 +17,7 @@ namespace WebApplication1.Dados
 
         public Banco()
         {
-            conexao = new SqlConnection(ConfigurationManager.ConnectionStrings["conexaoo"].ConnectionString);
+            conexao = new SqlConnection(ConfigurationManager.ConnectionStrings["conexaooo"].ConnectionString);
             conexao.Open();
 
         }
@@ -38,6 +38,7 @@ namespace WebApplication1.Dados
         public SqlDataReader RetornaComando(string StrQuery)
         {
             var comando = new SqlCommand(StrQuery, conexao);
+
             return comando.ExecuteReader();
         }
 

@@ -25,10 +25,12 @@ namespace WebApplication1.Controllers
         }
 
         
-        public ActionResult Alterar(Passageiro passageiro)
+        public ActionResult Alterar(Passageiro p )
         {
-            
-            return View(passageiro);
+
+       
+
+            return View(p);
         }
 
 
