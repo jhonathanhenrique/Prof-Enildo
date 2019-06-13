@@ -39,7 +39,9 @@ namespace WebApplication1.Dados
         {
             var comando = new SqlCommand(StrQuery, conexao);
 
+            
             return comando.ExecuteReader();
+
         }
 
         public void Dispose()

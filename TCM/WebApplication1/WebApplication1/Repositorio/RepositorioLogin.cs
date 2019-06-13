@@ -44,9 +44,44 @@ namespace WebApplication1.Repositorio
                 logPass.Add(tempLogin);
             }
             x.Close();
-            return logPass; 
+            return logPass;
         }
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+        public List<Gerente> ValidarGerente(Gerente p)
+        {
+            using (db = new Banco())
+            {
+                var strQuery = "Select * from GERENTE where EMAIL = '" + p.email + "' and senha = " + p.senha;
+                var retorno = db.RetornaComando(strQuery);
+                return IlitValidarGerente(retorno);
+
+            }
+
+        }
+
+        public List<Gerente> IlitValidarGerente(SqlDataReader x)
+        {
+            var logPass = new List<Gerente>();
+
+            while (x.Read())
+            {
+                var tempGer = new Gerente()
+                {
+                    id = int.Parse(x["ID_COD_GER"].ToString()),
+                    nome = x["NOME_GERENTE"].ToString(),
+                    telefone = x["TELEFONE_GER"].ToString(),
+                    email = x["EMAIL"].ToString(),
+                    senha = int.Parse(x["SENHA"].ToString())
+                };
+                logPass.Add(tempGer);
+            }
+            x.Close();
+            return logPass;
+        }
 
     }
 }
