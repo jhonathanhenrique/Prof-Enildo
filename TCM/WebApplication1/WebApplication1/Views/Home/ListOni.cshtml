@@ -39,16 +39,10 @@
             <td>
                 @Html.ActionLink("Alterar Onibus", "AlterarOni", new { item.id, item.dataManu, item.placa, item.rota }) |
                 @Html.ActionLink("Detalhes do Onibus", "detalhesOni", new { item.id, item.dataManu, item.placa, item.rota }) |
-                @Html.ActionLink("Deletar Onibus", "DeletaOni", new { item.id, item.dataManu, item.placa, item.rota })
+                @Html.ActionLink("Deletar Onibus", "DeletarOni", new { item.id, item.dataManu, item.placa, item.rota })
             </td>
         </tr>
     }
-    <dt>
-        @Html.ActionLink("Ver Lista de Motoristas", "ListMot")
-    </dt>
-    <dt>
-        @Html.ActionLink("Ver Lista de Onibus", "ListOni")
-    </dt>
 
 </table>
 

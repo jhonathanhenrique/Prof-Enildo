@@ -181,14 +181,14 @@ namespace WebApplication1.Controllers
             return View(m);
         }
 
-        [HttpPost]
+   
         public ActionResult DeletaMot(Motorista m)
         {
             var g = new AcoesGerente();
 
             g.ExcluirMot(m);
 
-            return View();
+            return RedirectToAction("ListMot");
         }
 
 
@@ -208,7 +208,7 @@ namespace WebApplication1.Controllers
             var g = new AcoesGerente();
             g.InsertOni(o);
 
-            return View();
+            return RedirectToAction("ListOni");
         }
 
         public ActionResult ListOni(Onibus o)
@@ -234,7 +234,7 @@ namespace WebApplication1.Controllers
             g.AtualizarONI(o);
 
 
-            return View();
+            return RedirectToAction("ListOni");
         }
 
         public ActionResult detalhesOni (Onibus o)
@@ -244,20 +244,21 @@ namespace WebApplication1.Controllers
         }
 
 
-        public ActionResult DeletarOni(Onibus o)
+        public ActionResult DeletarOni(Onibus O)
         {
 
-            return View(o);
+            return View(O);
         }
-        [HttpPost]
-        public ActionResult DeletaOni(Onibus o)
+
+
+       
+        public ActionResult DeletaOni(Onibus O)
         {
             var g = new AcoesGerente();
 
-            g.ExcluirOni(o);
+            g.ExcluirOnibus(O);
 
-
-            return View();
+            return RedirectToAction("ListOni");
         }
 
 

@@ -47,6 +47,8 @@ namespace WebApplication1.Dados
             strQuery += "UPDATE PASSAGEIRO SET ";
             strQuery += string.Format(" NOME_PAS = '{0}', ", passageiro.nome);
             strQuery += string.Format(" ENDERECO = '{0}', ", passageiro.endereco);
+            strQuery += string.Format(" CPF = '{0}', ", passageiro.cpf);
+            strQuery += string.Format(" EMAIL_PAS = '{0}', ", passageiro.email);
             strQuery += string.Format(" SENHA = {0}, ", passageiro.senha);
             strQuery += string.Format(" TELEFONE_PAS = '{0}'", passageiro.telefone);
             strQuery += string.Format(" WHERE ID_COD_PAS = {0} ", passageiro.id);
@@ -158,7 +160,7 @@ namespace WebApplication1.Dados
             strQuery += string.Format(" NOME_MOT = '{0}', ", m.nome);
             strQuery += string.Format(" CNH = '{0}', ", m.cnh);
             strQuery += string.Format(" SENHA = {0}, ", m.senha);
-            strQuery += string.Format(" TELEFONE_MOT = '{0} ,' ", m.telefone);
+            strQuery += string.Format(" TELEFONE_MOT = '{0}', ", m.telefone);
             strQuery += string.Format(" EMAIL_MOT = '{0}'", m.email);
             strQuery += string.Format(" WHERE ID_COD_MOT = {0} ", m.id);
 
@@ -192,7 +194,7 @@ namespace WebApplication1.Dados
 
             var strQuery = "";
             strQuery += "insert into ONIBUS (PLACA_ONIBUS, ROTA, DATA_MANUTENCAO)";
-            strQuery += string.Format("values('{0}', '{1}', CONVERT(DATERIME,'{2}',103));", o.placa, o.rota, o.dataManu);
+            strQuery += string.Format("values('{0}', '{1}', '{2}');", o.placa, o.rota, o.dataManu);
 
             using (db = new Banco())
             {
@@ -227,7 +229,7 @@ namespace WebApplication1.Dados
                     id = int.Parse(Retorno["ID_COD_ONI"].ToString()),
                     placa = Retorno["PLACA_ONIBUS"].ToString(),
                     rota = Retorno["ROTA"].ToString(),
-                    dataManu = DateTime.Parse(Retorno["DATA_MANUTENCAO"].ToString()),
+                    dataManu = Retorno["DATA_MANUTENCAO"].ToString(),
                 };
                 usuarios.Add(TempOni);
             }
@@ -242,8 +244,8 @@ namespace WebApplication1.Dados
             strQuery += "UPDATE ONIBUS SET ";
             strQuery += string.Format(" PLACA_ONIBUS = '{0}', ", O.placa);
             strQuery += string.Format(" ROTA = '{0}', ", O.rota);
-            strQuery += string.Format(" DATA_MANUTENCAO = {0}, ", O.dataManu);
-          strQuery += string.Format(" WHERE ID_COD_ONI = {0} ", O.id);
+            strQuery += string.Format(" DATA_MANUTENCAO = '{0}' ", O.dataManu);
+            strQuery += string.Format(" WHERE ID_COD_ONI = {0} ", O.id);
 
             using (db = new Banco())
             {
@@ -252,14 +254,16 @@ namespace WebApplication1.Dados
 
         }
 
-        public void ExcluirOni(Onibus O)
+
+        public void ExcluirOnibus(Onibus o)
         {
-            var strQuery = string.Format(" DELETE FROM ONIBUS WHERE ID_COD_ONI = {0}", O.id);
+            var strQuery = string.Format(" DELETE FROM ONIBUS WHERE ID_COD_ONI = {0}", o.id);
             using (db = new Banco())
             {
 
                 db.ExecutaComando(strQuery);
             }
         }
+
     }
 }

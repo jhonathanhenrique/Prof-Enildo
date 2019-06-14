@@ -11,8 +11,11 @@ namespace WebApplication1.Controllers
     public class PassageiroController : Controller
     {
         [HttpGet]
-        public ActionResult Index(int id)
+        public ActionResult Index(int id, Passageiro p)
         {
+            
+
+
             var x = new AcoesPassageiro();
             
 

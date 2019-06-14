@@ -15,7 +15,7 @@ namespace WebApplication1.Repositorio
         public List<Passageiro> selecionaid(int x)
         {
 
-            using (db = new Banco())
+                using (db = new Banco())
             {
                 var strQuery = "Select * from PASSAGEIRO where id_cod_pas = " + x;
                 var retorno = db.RetornaComando(strQuery);
@@ -75,7 +75,6 @@ namespace WebApplication1.Repositorio
 
         }
 
-        
 
 
 
@@ -90,7 +89,14 @@ namespace WebApplication1.Repositorio
 
 
 
-        }
+
+
+
+
+
+
+
+    }
     }
 
 

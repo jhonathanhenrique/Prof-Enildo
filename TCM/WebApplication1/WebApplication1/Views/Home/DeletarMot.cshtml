@@ -54,12 +54,8 @@
 
     </dl>
 
-    @using (Html.BeginForm("DeletaMot")) {
-        @Html.AntiForgeryToken()
-
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Voltar Para Lista", "ListMot")
-        </div>
-    }
+    @Html.ActionLink("Confirmar", "DeletaMot", new { Model.id })|
+    @Html.ActionLink("Voltar Para Lista", "ListMot")
 </div>
+    }
+

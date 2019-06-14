@@ -11,7 +11,7 @@ namespace WebApplication1.Models
         public int id { get; set; }
         public string placa { get; set; }
         public string rota { get; set; }
-        public DateTime dataManu { get; set; }
+        public string dataManu { get; set; }
 
     }
 }
