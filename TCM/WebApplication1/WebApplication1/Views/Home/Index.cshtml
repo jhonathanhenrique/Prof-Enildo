@@ -1,15 +1,19 @@
 ﻿@model IEnumerable<WebApplication1.Models.Passageiro>
 
+
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Lista de Passageiros e Motoristas Cadastrados";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Lista Passageiros</h2>
 
-<p>
+<dt>
     @Html.ActionLink("Adicionar Passageiro", "Inserir")
-</p>
+</dt>
+
+
+
 <table class="table">
     <tr>
         <th>
@@ -56,11 +60,20 @@
             </td>
 
             <td>
-                @Html.ActionLink("Alterar", "Alterar", new {  item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
-                @Html.ActionLink("Detalhes", "Detalhes", new {  item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
+                @Html.ActionLink("Alterar", "Alterar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
+                @Html.ActionLink("Detalhes", "Detalhes", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
                 @Html.ActionLink("Deletar", "Deletar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha })
             </td>
         </tr>
     }
-
 </table>
+<dt>
+    @Html.ActionLink("Ver Lista de Motoristas", "ListMot")
+</dt>
+<dt>
+    @Html.ActionLink("Ver Lista de Onibus", "ListOni")
+</dt>
+
+
+
+

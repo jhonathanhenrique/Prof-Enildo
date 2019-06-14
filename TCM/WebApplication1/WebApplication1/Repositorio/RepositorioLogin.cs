@@ -83,5 +83,42 @@ namespace WebApplication1.Repositorio
             return logPass;
         }
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        public List<Motorista> ValidarMotorista(Motorista p)
+        {
+            using (db = new Banco())
+            {
+                var strQuery = "Select * from MOTORISTA where EMAIL_MOT = '" + p.email + "' and senha = " + p.senha;
+                var retorno = db.RetornaComando(strQuery);
+                return IlitValidarMotorista(retorno);
+
+            }
+
+        }
+
+        public List<Motorista> IlitValidarMotorista(SqlDataReader x)
+        {
+            var logPass = new List<Motorista>();
+
+            while (x.Read())
+            {
+                var tempMot = new Motorista()
+                {
+                    id = int.Parse(x["ID_COD_MOT"].ToString()),
+                    nome = x["NOME_MOT"].ToString(),
+                    telefone = x["TELEFONE_MOT"].ToString(),
+                    email = x["EMAIL_MOT"].ToString(),
+                    cnh = x["CNH"].ToString(),
+                    senha = int.Parse(x["SENHA"].ToString())
+                };
+                logPass.Add(tempMot);
+            }
+            x.Close();
+            return logPass;
+        }
+
+
     }
 }

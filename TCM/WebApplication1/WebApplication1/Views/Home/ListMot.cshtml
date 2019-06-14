@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebApplication1.Models.Motorista>
+
+@{
+    ViewBag.Title = "ListMot";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListMot</h2>
+
+<dt>
+    @Html.ActionLink("Adicionar Motorista", "InserirMot")
+</dt>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cnh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.senha)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cnh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.senha)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "AlterarMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha }) |
+                @Html.ActionLink("Detalhes do Motorista", "DetalhesMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha }) |
+                @Html.ActionLink("Deletar Motorista", "DeletarMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha })
+            </td>
+        </tr>
+    }
+    
+        @Html.ActionLink("Ver Lista de Passageiro", "Index")
+    </dt>
+    <dt>
+        @Html.ActionLink("Ver Lista de Onibus", "ListOni")
+    </dt>
+
+</table>

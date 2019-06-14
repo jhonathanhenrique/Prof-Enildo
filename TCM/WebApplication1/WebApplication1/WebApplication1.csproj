@@ -132,7 +132,10 @@
     <Compile Include="Controllers\MotoristaController.cs" />
     <Compile Include="Controllers\PassageiroController.cs" />
     <Compile Include="Models\Gerente.cs" />
+    <Compile Include="Models\Motorista.cs" />
+    <Compile Include="Models\Onibus.cs" />
     <Compile Include="Repositorio\AcoesGerente.cs" />
+    <Compile Include="Repositorio\AcoesMotorista.cs" />
     <Compile Include="Repositorio\AcoesPassageiro.cs" />
     <Compile Include="Repositorio\Banco.cs" />
     <Compile Include="Global.asax.cs">
@@ -197,14 +200,26 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Detalhes.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
-    <Content Include="Views\Login\MotoristaLogin.cshtml" />
     <Content Include="Views\Login\PassageiroLogin.cshtml" />
     <Content Include="Views\Passageiro\Index.cshtml" />
     <Content Include="Views\Login\GerenteLogin.cshtml" />
+    <Content Include="Views\Login\MotoristaLogin.cshtml" />
+    <Content Include="Views\Motorista\Index.cshtml" />
+    <Content Include="Views\Home\InserirMot.cshtml" />
+    <Content Include="Views\Home\ListMot.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage1.cshtml" />
+    <Content Include="Views\Home\DetalhesMot.cshtml" />
+    <Content Include="Views\Home\AlterarMot.cshtml" />
+    <Content Include="Views\Home\ListOni.cshtml" />
+    <Content Include="Views\Home\DeletarMot.cshtml" />
+    <Content Include="Views\Home\AlterarOni.cshtml" />
+    <Content Include="Views\Home\detalhesOni.cshtml" />
+    <Content Include="Views\Home\DeletarOni.cshtml" />
+    <Content Include="Views\Home\InserirOni.cshtml" />
+    <Content Include="Views\Passageiro\Detalhes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Motorista\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -245,7 +245,6 @@ C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\bin\An
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Properties.Resources.resources
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.cache
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
@@ -253,3 +252,4 @@ C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\De
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
 C:\Users\2ainfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\2binfo\Documents\Prof-Enildo\TCM\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache

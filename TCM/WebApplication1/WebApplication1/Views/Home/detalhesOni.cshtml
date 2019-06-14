@@ -1,0 +1,43 @@
+﻿@model WebApplication1.Models.Onibus
+
+@{
+    ViewBag.Title = "detalhesOni";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>detalhesOni</h2>
+
+<div>
+    <h4>Onibus</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.placa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.placa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dataManu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dataManu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Alterar Onibus", "AlterarOni", new { Model.id, Model.rota, Model.placa, Model.dataManu}) |
+    @Html.ActionLink("Voltar Para a Lista", "ListOni")
+</p>

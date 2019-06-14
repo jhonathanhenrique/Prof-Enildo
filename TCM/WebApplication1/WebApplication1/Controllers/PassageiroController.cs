@@ -18,5 +18,18 @@ namespace WebApplication1.Controllers
 
             return View(x.selecionaid(id));
         }
+
+        
+        [HttpGet]
+        public ActionResult Detalhes (int id)
+        {
+            var g = new AcoesPassageiro().detalhes(id);
+
+            
+ 
+            
+            
+            return View(g);
+        }
     }
 }

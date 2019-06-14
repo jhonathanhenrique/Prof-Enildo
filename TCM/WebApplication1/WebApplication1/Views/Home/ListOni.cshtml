@@ -1,0 +1,61 @@
+﻿@model IEnumerable<WebApplication1.Models.Onibus>
+
+@{
+    ViewBag.Title = "ListOni";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListOni</h2>
+
+<p>
+    @Html.ActionLink("Adicionar Onibus", "InserirOni")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.placa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dataManu)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dataManu)
+            </td>
+            <td>
+                @Html.ActionLink("Alterar Onibus", "AlterarOni", new { item.id, item.dataManu, item.placa, item.rota }) |
+                @Html.ActionLink("Detalhes do Onibus", "detalhesOni", new { item.id, item.dataManu, item.placa, item.rota }) |
+                @Html.ActionLink("Deletar Onibus", "DeletaOni", new { item.id, item.dataManu, item.placa, item.rota })
+            </td>
+        </tr>
+    }
+    <dt>
+        @Html.ActionLink("Ver Lista de Motoristas", "ListMot")
+    </dt>
+    <dt>
+        @Html.ActionLink("Ver Lista de Onibus", "ListOni")
+    </dt>
+
+</table>
+
+<dt>
+    @Html.ActionLink("Ver Lista de Motoristas", "ListMot")
+</dt>
+<dt>
+    @Html.ActionLink("Ver Lista de Passageiros", "Index")
+</dt>
+

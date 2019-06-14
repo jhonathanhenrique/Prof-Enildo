@@ -87,10 +87,41 @@ namespace WebApplication1.Controllers
 
         }
 
-        public ActionResult MotoristaLogin()
+        public ActionResult MotoristaLogin(Motorista m)
         {
+
+            
+
+
             return View();
         }
+
+        public ActionResult Validamot(Motorista m)
+        {
+
+
+
+
+            var repLogin = new RepositorioLogin();
+            var LOGIN = repLogin.ValidarMotorista(m);
+
+
+
+
+
+
+
+            if (LOGIN.Count >= 1)
+            {
+
+                return RedirectToAction("Index", "Motorista");
+            }
+            else
+                return RedirectToAction("PassageiroLogin", "Login");
+
+
+        }
+    }
 
         //public ActionResult IndexPassageiro(int id)
         //{
@@ -101,4 +132,3 @@ namespace WebApplication1.Controllers
 
 
     }
-}
