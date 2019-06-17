@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Minhas informações</h2>
 
 
 <table class="table">
@@ -53,7 +53,7 @@
         </td>
         <td>
 
-            @Html.ActionLink("Detalhes", "Detalhes", new { item.id})
+            @Html.ActionLink("Detalhes", "Detalhes", new { item.id}, new { @class = "btn btn-warning" })
             @*@Html.ActionLink("Detalhes", "Detalhes", new { item.id, item.endereco, item.email, item.cpf, item.senha, item.nome })*@
 
         </td>

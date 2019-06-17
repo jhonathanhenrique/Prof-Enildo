@@ -1,5 +1,7 @@
 ﻿body {
-    background-image: url(imagens/jdb-passagem-onibus.jpg) ;
+    background-image: url(imagens/home-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 20px;
 }

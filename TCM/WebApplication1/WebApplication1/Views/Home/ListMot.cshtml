@@ -49,9 +49,9 @@
                 @Html.DisplayFor(modelItem => item.senha)
             </td>
             <td>
-                @Html.ActionLink("Edit", "AlterarMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha }) |
-                @Html.ActionLink("Detalhes do Motorista", "DetalhesMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha }) |
-                @Html.ActionLink("Deletar Motorista", "DeletarMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha })
+                @Html.ActionLink("Edit", "AlterarMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha }, new { @class = "btn btn-primary" }) 
+                @Html.ActionLink("Detalhes do Motorista", "DetalhesMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Deletar Motorista", "DeletarMot", new { item.id, item.cnh, item.email, item.nome, item.telefone, item.senha }, new { @class = "btn btn-danger" })
             </td>
         </tr>
     }

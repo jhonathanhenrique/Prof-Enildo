@@ -5,40 +5,43 @@
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
 
-<h2>MotoristaLogin</h2>
+<h2>Login do Motorista</h2>
+<div class="jumbotron">
+    @using (Html.BeginForm("Validamot", "Login"))
+    {
+        @Html.AntiForgeryToken()
 
-@using (Html.BeginForm("Validamot", "Login")) 
-{
-    @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>Motorista</h4>
-        <hr />
+        <div class="form-horizontal">
+            <h4>Motorista</h4>
+            <hr />
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.PasswordFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.senha, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.PasswordFor(model => model.senha, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.senha, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Logar" class="btn btn-primary" />
+                </div>
             </div>
         </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.senha, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.PasswordFor(model => model.senha, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.senha, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Logar" class="btn btn-default" />
-            </div>
-        </div>
+    }
+    <div>
+        @Html.ActionLink("voltart", "Index")
     </div>
-}
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
 </div>
+
+  

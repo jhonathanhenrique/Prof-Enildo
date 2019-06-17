@@ -37,19 +37,18 @@
                 @Html.DisplayFor(modelItem => item.dataManu)
             </td>
             <td>
-                @Html.ActionLink("Alterar Onibus", "AlterarOni", new { item.id, item.dataManu, item.placa, item.rota }) |
-                @Html.ActionLink("Detalhes do Onibus", "detalhesOni", new { item.id, item.dataManu, item.placa, item.rota }) |
-                @Html.ActionLink("Deletar Onibus", "DeletarOni", new { item.id, item.dataManu, item.placa, item.rota })
+                @Html.ActionLink("Alterar Onibus", "AlterarOni", new { item.id, item.dataManu, item.placa, item.rota }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Detalhes do Onibus", "detalhesOni", new { item.id, item.dataManu, item.placa, item.rota }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Deletar Onibus", "DeletarOni", new { item.id, item.dataManu, item.placa, item.rota }, new { @class = "btn btn-danger" })
             </td>
         </tr>
     }
 
 </table>
 
-<dt>
+<p>
     @Html.ActionLink("Ver Lista de Motoristas", "ListMot")
-</dt>
-<dt>
+</p>
+<p>
     @Html.ActionLink("Ver Lista de Passageiros", "Index")
-</dt>
-
+</p>

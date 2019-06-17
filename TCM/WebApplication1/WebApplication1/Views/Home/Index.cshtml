@@ -8,7 +8,7 @@
 <h2>Lista Passageiros</h2>
 
 <dt>
-    @Html.ActionLink("Adicionar Passageiro", "Inserir")
+    @Html.ActionLink("Adicionar Passageiro", "Inserir", new { @class = "btn btn-warning" })
 </dt>
 
 
@@ -59,9 +59,9 @@
             </td>
 
             <td>
-                @Html.ActionLink("Alterar", "Alterar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
-                @Html.ActionLink("Detalhes", "Detalhes", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }) |
-                @Html.ActionLink("Deletar", "Deletar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha })
+                @Html.ActionLink("Alterar", "Alterar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }, new { @class = "btn btn-primary" }) 
+                @Html.ActionLink("Detalhes", "Detalhes", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Deletar", "Deletar", new { item.id, item.nome, item.telefone, item.endereco, item.email, item.cpf, item.senha },new { @class = "btn btn-danger" })
             </td>
         </tr>
     }

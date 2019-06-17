@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers
         public ActionResult Index(int id, Passageiro p)
         {
             
-
+            
 
             var x = new AcoesPassageiro();
             

@@ -18,6 +18,7 @@ namespace WebApplication1.Controllers
         // GET: Login
         public ActionResult Index()
         {
+            
             return View();
         }
         public ActionResult GerenteLogin ()
@@ -45,7 +46,11 @@ namespace WebApplication1.Controllers
                 return RedirectToAction("Index", "Home");
             }
             else
+            {
+                
+
                 return RedirectToAction("GerenteLogin", "Login");
+            }
 
         }
 
